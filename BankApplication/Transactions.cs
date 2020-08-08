@@ -8,6 +8,7 @@ namespace BankApplication
 {
    public class Transactions
     {
+        // This class holds the responsibility of logging out all transaction details 
         public Transactions(decimal amount, DateTime date, string note)
         {
 

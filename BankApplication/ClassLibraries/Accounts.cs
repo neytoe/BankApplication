@@ -36,31 +36,6 @@ namespace BankApplication
         private Customer Owner { get; set; }
         
 
-        //This method implements a deposit transaction
-        public void MakeDeposit(decimal amount, Customer customer, string note)
-        {
-            while (amount < 1)
-            {
-                Console.WriteLine("Please enter a value greater than 0");
-            }
-            Balance += amount;
-
-            
-            Transactions transaction = new Transactions();
-            
-            
-        }
-
-        //This method implemen ts a withdrawal transaction
-        public void MakeWithDrawal(decimal amount)
-        {
-
-        }
-
-        //This method implements a transfer transfer transaction
-        public void MakeTransfer()
-        {
-
-        }
+ 
     }
 }

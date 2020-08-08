@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-// Add UniqueID to customer constructor
+// This class hold properties of the customer
 namespace BankApplication
 {
     public class Customer 
